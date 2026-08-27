@@ -1,0 +1,36 @@
+# ==========================================
+# BARBERNAATU - Git Ignore
+# ==========================================
+
+# Sensitive configuration
+/config.php
+/midtrans_config.php
+
+# Environment / secret files
+.env
+.env.*
+!.env.example
+
+# Database backups
+*.sql
+
+# Logs
+*.log
+
+# Composer dependencies
+/vendor/
+
+# Composer local executable
+composer.phar
+
+# User uploaded files
+/upload/profile/*
+/admin/upload/*
+
+# Windows / macOS files
+Thumbs.db
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
